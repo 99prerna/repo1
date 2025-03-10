@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Source Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/nikhiljoshi7712/QuizApp'
+                git branch: 'master', url: 'https://github.com/99prerna/QuizApp.git'
             }
         }
         stage('Build') {
