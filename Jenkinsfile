@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'BuildNode' }
+    agent { label 'Slave' }
     tools {
         maven 'MVN'
     }
